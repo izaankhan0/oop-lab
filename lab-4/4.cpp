@@ -5,7 +5,7 @@ using namespace std;
 class Sphere {
 private:
     double radiusValue;
-	const double PI_VAL = 3.14159265358979323846;
+	const double PI_VAL = 3.14159265358;
 public:
 	Sphere(){
 		radiusValue = 0;
