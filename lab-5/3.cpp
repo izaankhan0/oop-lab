@@ -15,8 +15,12 @@ public:
         cout << "Book Destroyed: " << title << " (" << ISBN << ")" << endl;
     }
 
-    string getISBN() const { return ISBN; }
-    string getTitle() const { return title; }
+    string getISBN(){
+         return ISBN; 
+        }
+    string getTitle(){
+         return title;
+        }
 };
 
 class Catalog {
@@ -91,6 +95,8 @@ public:
 };
 
 int main() {
+    //got inputs using gpt
+    
     Library myLibrary;
 
     Book book1("C++ Programming", "1234");

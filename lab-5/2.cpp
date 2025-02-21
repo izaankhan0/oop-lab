@@ -45,6 +45,10 @@ int main() {
     garage.parkCar(&car1);
     garage.parkCar(&car2);
 
+    delete(&car1);
+
+    // garage stores cars hence it still contains the instance of the cars although car is deleted
+
     garage.listCars();
 
     return 0;
