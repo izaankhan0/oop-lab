@@ -22,7 +22,7 @@ public:
 
 class Garage {
 private:
-    vector<Car*> cars;  // Stores raw pointers to cars
+    vector<Car*> cars;
 public:
     void parkCar(Car* car) {
         cars.push_back(car);
